@@ -8,10 +8,18 @@
 <body>
     <h1>Contact Folder</h1>
     <nav>
-        <a href = "/projects/index.html">Project Folder</a>
-        <a href = "/contact/index.html">Contact Folder</a>
+        <a href = "/projects/index.html">Project</a>
+        <a href = "/contact/index.html">Contact</a>
         <a href ="/index.html">Root</a>
         <a href = "https://github.com/CONNIELIUGH" target = "_blank">Connie's GitHub Profile</a>
+        <form action = "mailto:col024@ucsd.edu" method = "POST"
+            enctype = "text/plain"> 
+            <label>Email:<input name = "email" type = "email" value = "col024@ucsd.edu"></input></label>
+            <label>Subject:<input name = "subject" value = "email subject"></input></label>
+            <label>Body:<textarea name = "body" value = "Hi connie!"></textarea></label>
+    
+        </form>
+        <button>submit</button>
     </nav>
 </body>
 </html>
