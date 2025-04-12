@@ -1,0 +1,49 @@
+form {
+    display: grid;
+    /* grid-template-columns: auto 1fr; */
+    grid-template-columns: subgrid;
+    grid-column: 1 / -1;
+    gap: 1em;
+ 
+}
+
+/* 
+
+form {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 2px solid var(--color-accent, oklch(65% 50% 0));
+    border-radius: 10px;
+    background-color: white;
+  }
+
+form label {
+    display: block;
+    margin-block: 1rem; /* adds spacing above and below */
+    /* font-weight: bold;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%; /* takes full container width */
+  /* box-sizing: border-box; /* includes padding/border in width */
+  /* padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.25rem; /* slight space between label and field */
+/* } */ 
+
+/* Button styling */
+/* form button {
+  background-color: var(--color-accent, oklch(65% 50% 0));
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+} */
