@@ -1,3 +1,7 @@
+:root{
+  color-scheme: dark;
+}
+
 form{
   display: grid;
   grid-template-columns: auto 1fr;
