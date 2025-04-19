@@ -13,11 +13,13 @@ body {
        */
     font: 100%/1.5 system-ui;
     accent-color: var(--color-accent);
+    margin: 30px;
 }
 
 /* Formatting Menu bar */
 
 nav {
+  margin-top: 80px;
   display: flex;
   margin-bottom: 100px;
   /* border-bottom: 1px solid oklch(80% 3% 200); */
@@ -65,4 +67,14 @@ label{
   grid-column: 1/-1;
 
 
+}
+
+/* Format the switch */
+label.color-scheme {
+  position: absolute;    
+  top: 1rem;             
+  right: 1rem;           
+  
+  font-size: 80%;       
+  font-family: inherit; 
 }
