@@ -7,6 +7,11 @@ html{
   accent-color: var(--color-accent);
 
 }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
 body {
     /* Set line height to 1.5 times the font size
          and use the OS’s UI font as the website font
@@ -78,3 +83,28 @@ label.color-scheme {
   font-size: 80%;       
   font-family: inherit; 
 }
+
+
+/* Projects */
+.projects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  gap: 1em;
+}
+.projects article {
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+}
+
+.projects article h2 {
+  margin: 0;
+}
+
+.projects h1{
+  margin-bottom: auto;
+  background-color: blue;
+}
+
+
+
+

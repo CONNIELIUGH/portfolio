@@ -80,3 +80,57 @@ if ('colorScheme' in localStorage) {
     select.value = saved;    // make the dropdown show the stored choice
   }
 
+
+
+// Lab 4
+export async function fetchJSON(url) {
+    try {
+        // Fetch the JSON file from the given URL
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`Failed to fetch projects: ${response.statusText}`);
+        }
+        const data = await response.json();
+        return data;
+
+    } catch (error) {
+
+      console.error('Error fetching or parsing JSON data:', error);
+    }
+}
+
+
+export function renderProjects(project, containerElement, headingLevel = 'h2'){
+
+
+    for (let i = 0; i < project.length; i ++){
+        const article = document.createElement('article');
+
+        article.innerHTML = 
+            `<${headingLevel}>${project[i].title}</${headingLevel}>
+            <img src="${project[i].image}" alt="${project[i].title}">
+            <p>${project[i].description}</p>`;
+        
+        containerElement.appendChild(article);
+
+    }
+    
+}
+
+export function createProjectTitle(project, containerElement){
+    containerElement.innerHTML = '';
+    const proj_title = document.createElement("h1");
+    proj_title.className = "projects-title";
+    proj_title.innerHTML = `<h1>${project.length} Projects</h1>`;
+    
+    const h1 = proj_title.querySelector("h1");
+    h1.style.marginTop = "-100";
+    
+    containerElement.appendChild(proj_title);
+
+}
+
+
+
+
+
