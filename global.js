@@ -121,13 +121,13 @@ export function createProjectTitle(project, containerElement){
     containerElement.innerHTML = '';
     const proj_title = document.createElement("h1");
     proj_title.className = "projects-title";
-    proj_title.innerHTML = `<h1>${project.length} Projects</h1>`;
+    proj_title.innerText = `${project.length} Projects`;
     
     const h1 = proj_title.querySelector("h1");
-    h1.style.marginTop = "-100";
     
-    containerElement.appendChild(proj_title);
+    // containerElement.appendChild(proj_title);
 
+    containerElement.parentNode.insertBefore(proj_title, containerElement);
 }
 
 
