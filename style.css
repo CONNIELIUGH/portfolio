@@ -96,10 +96,34 @@ label.color-scheme {
   grid-row: span 3;
 }
 
+.projects img{
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
 .projects article h2 {
   margin: 0;
 }
 
+#profile-stats dl{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+#profile-stats dt{
+    grid-row: 1;
+    font-weight: bold; /* optional styling */
+    text-align: center;
+    color: gray;
+
+}
+
+#profile-stats dd{
+  grid-row: 2;
+  text-align: center;
+}
 
 
 

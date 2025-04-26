@@ -1,61 +1,73 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora porro hic vel aliquid et totam, libero sapiente cum odio ipsam rerum assumenda atque, minus temporibus fuga eligendi nihil, minima eaque."
+        "title": "2025 LOL Analysis.",
+        "year": 2025,
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6lRZjtAudQIxG3nc5IngdTvfzU8Ito11MpFxOwz5X4PB9COnM",
+        "description": "DSC 80 Project"
     },
     {
         "title": "Neque vitae quod quos?",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Rem cum porro asperiores eligendi aut ex corrupti ullam dignissimos nesciunt tempore, minus non suscipit illum quos a error soluta ipsum sapiente at. Labore incidunt necessitatibus rem, voluptatem illum repudiandae."
     },
     {
         "title": "Odit doloremque officiis in.",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Iusto error ratione labore. Voluptas aut, earum, nesciunt impedit possimus totam dolor ex eos consequatur minima sed aliquam alias quibusdam accusantium nihil rem dolores consequuntur illum asperiores itaque esse iusto?"
     },
     {
         "title": "Eveniet amet molestiae fugit.",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Velit ipsum voluptatum nostrum tenetur cumque est a voluptates deserunt culpa consectetur numquam, tempore voluptatem nesciunt? Porro voluptatum fugiat, laudantium quia id, suscipit, et aliquam qui ratione animi enim. Dolorum."
     },
     {
         "title": "Qui quo optio tempora?",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Odio quam tempore delectus hic doloribus ipsam? Similique dolores odit veniam soluta ab, labore magnam cupiditate quod voluptas nihil illo laboriosam, deleniti architecto quas officia cumque unde saepe! Ex, odio."
     },
     {
         "title": "Ipsum fugiat aliquam ipsam?",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Assumenda quod quas error sequi voluptates ab quos, voluptas odit ipsa fugiat sunt nam distinctio voluptatem magnam ex debitis, dicta eligendi qui. Nobis omnis autem, odit blanditiis totam hic praesentium."
     },
     {
         "title": "In ex voluptas deserunt.",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Dolore numquam hic repellat. Debitis voluptate temporibus vitae? Quidem, nihil aspernatur, corrupti facilis numquam molestiae praesentium quam explicabo enim eligendi ipsa officiis doloremque, exercitationem ullam tempora beatae provident unde dolorem?"
     },
     {
         "title": "Exercitationem molestiae eligendi sapiente?",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Laborum voluptate quaerat labore aliquam, provident facere magnam corporis temporibus nihil sit iure fugiat eos accusamus optio odit harum consequuntur id consectetur saepe cupiditate sed. Neque dolorem obcaecati fugit necessitatibus."
     },
     {
         "title": "Adipisci labore maxime reiciendis?",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Iste dolores consequatur sapiente neque. Et accusantium, eveniet officia neque voluptate fuga, porro, non repudiandae quisquam illum nostrum asperiores consequatur perferendis labore quod ipsum vel. Excepturi, in porro. Labore, placeat!"
     },
     {
         "title": "Ab rem possimus officia!",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Debitis vero nisi earum iusto reiciendis itaque magni deserunt sapiente, consequuntur ab esse nobis voluptates officia id exercitationem omnis optio voluptas veniam! Delectus eos quisquam doloribus nesciunt et dolorum laudantium?"
     },
     {
         "title": "Maiores obcaecati voluptatem possimus.",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Iste minima neque fuga, veritatis quibusdam praesentium aut sed omnis at perspiciatis ipsum atque voluptates dolorum provident modi accusantium officia, non in eveniet, id accusamus? Voluptatem ex perferendis a ipsum!"
     },
     {
         "title": "Voluptatum expedita vitae deleniti?",
+        "year": null,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Nulla assumenda aliquam expedita porro error ipsa numquam eaque quasi doloremque eveniet perferendis architecto corporis deleniti ratione ipsum possimus ducimus quis dicta veniam accusamus distinctio blanditiis laudantium, exercitationem facere? Veritatis!"
     }
