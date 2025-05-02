@@ -86,6 +86,14 @@ label.color-scheme {
 
 
 /* Projects */
+#projects-pie-plot{
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+
+}
+
 .projects{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
