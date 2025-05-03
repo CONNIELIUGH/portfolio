@@ -102,7 +102,7 @@ export async function fetchJSON(url) {
 
 export function renderProjects(project, containerElement, headingLevel = 'h2'){
 
-
+    containerElement.innerHTML = '';
     for (let i = 0; i < project.length; i ++){
         const article = document.createElement('article');
 
@@ -119,7 +119,7 @@ export function renderProjects(project, containerElement, headingLevel = 'h2'){
 }
 
 export function createProjectTitle(project, containerElement){
-    containerElement.innerHTML = '';
+    
     const proj_title = document.createElement("h1");
     proj_title.className = "projects-title";
     proj_title.innerText = `${project.length} Projects`;

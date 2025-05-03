@@ -114,6 +114,47 @@ label.color-scheme {
   margin: 0;
 }
 
+
+.legend{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  border: 1px solid #ccc;  
+  border-radius: 8px;
+  padding: 1em;
+  margin-top: 1em;
+  flex: 1;
+}
+
+.legend em{
+  color: grey;
+}
+
+.swatch{
+  display: inline-block;  
+  width: 25px;
+  aspect-ratio: 1/1;
+  background-color: var(--color);
+  border-radius: 50%;
+
+}
+
+.corlorlegends{
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  gap:  2em;
+  flex-wrap: wrap;
+  
+}
+
+
+
 #profile-stats dl{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
