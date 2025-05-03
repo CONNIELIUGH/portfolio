@@ -100,6 +100,7 @@ searchInput.addEventListener('change', (event) => {
 
   // re-render legends and pie chart when event triggers
   renderProjects(filteredProjects, projectsContainer, 'h2');
+  // createProjectTitle(filteredProjects, projectsContainer);
   renderPieChart(filteredProjects);
 });
 
