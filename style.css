@@ -224,3 +224,66 @@ path {
   margin: 0;
 }
 
+
+.gridlines line {
+  stroke: #ccc;        /* Light gray */
+  stroke-opacity: 0.4; /* Make lines more subtle */
+  shape-rendering: crispEdges;
+  stroke-width: 0.5;   /* Thin lines */
+}
+
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1em;
+  row-gap: 0.5em;
+  margin: 0;
+  font-size: 0.75em;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+dl.info dt {
+  font-weight: normal;
+  color: #555;
+  margin: 0;
+}
+
+dl.info dd {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* .tooltip: fixed position so it's always visible */
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background: black;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+  backdrop-filter: blur(10px); 
+  /* -webkit-backdrop-filter: blur(10px);  */
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
