@@ -195,5 +195,32 @@ path {
 }
 
 
+/* Style meta index.html */
+#meta h1 {
+  font-size: 2.5rem;
+  color: var(--color-accent);
+  margin-bottom: 0.2em;
+}
 
+#meta h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: lightgray;
+  margin-top: 0;
+}
+
+#stats dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.5rem 1rem;
+}
+
+#stats dt {
+  font-weight: bold;
+  color: var(--color-accent);
+}
+
+#stats dd {
+  margin: 0;
+}
 
