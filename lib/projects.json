@@ -1,3 +1,5 @@
+
+
 [
     {
         "title": "2025 LOL Analysis.",
@@ -6,10 +8,10 @@
         "description": "DSC 80 Project"
     },
     {
-        "title": "Neque vitae quod quos?",
+        "title": "Boston Bikewatching",
         "year": 2025,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Rem cum porro asperiores eligendi aut ex corrupti ullam dignissimos nesciunt tempore, minus non suscipit illum quos a error soluta ipsum sapiente at. Labore incidunt necessitatibus rem, voluptatem illum repudiandae."
+        "image": "boston_bikewatching.png",
+        "description": "This project builds an immersive, interactive map visualization of bike traffic in the Boston area during different times of the day."
     },
     {
         "title": "Odit doloremque officiis in.",

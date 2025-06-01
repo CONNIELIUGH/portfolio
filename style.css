@@ -210,19 +210,31 @@ path {
 }
 
 #stats dl {
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  gap: 0.5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 2rem; /* vertical and horizontal spacing */
+  font-family: sans-serif;
+}
+
+#stats dt, #stats dd {
+  margin: 0;
 }
 
 #stats dt {
-  font-weight: bold;
   color: var(--color-accent);
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+#stats dt::after {
+  content: ":";
+  margin-left: 0.25rem;
 }
 
 #stats dd {
-  margin: 0;
+  margin-right: 2rem;
 }
+
 
 
 .gridlines line {
@@ -261,10 +273,11 @@ dl.info dd {
 
 /* .tooltip: fixed position so it's always visible */
 .tooltip {
+  color: black;
   position: fixed;
   top: 1em;
   left: 1em;
-  background: black;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 0.5em;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -275,10 +288,13 @@ dl.info dd {
 }
 
 circle {
+  
   transition: 200ms;
   transform-origin: center;
   transform-box: fill-box;
+ 
 }
+
 
 circle:hover {
   transform: scale(1.5);
@@ -286,4 +302,65 @@ circle:hover {
 
 circle.selected {
   fill: #ff6b6b;
+}
+
+#files {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+  > div {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+
+  dt {
+    grid-column: 1;
+  }
+
+  dd {
+    grid-column: 2;
+  }
+}
+
+.loc {
+  display: flex;
+  width: 0.5em;
+  aspect-ratio: 1;
+  background: var(--color);
+  border-radius: 50%;
+}
+
+dd {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  align-content: start;
+  gap: 0.15em;
+  padding-top: 0.6em;
+  margin-left: 0;
+}
+
+
+#scrolly-1 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+  > * {
+    flex: 1;
+  }
+}
+
+#scatter-story {
+  position: relative;
+}
+
+#scatter-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 50vh;
 }
